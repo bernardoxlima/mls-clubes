@@ -1,0 +1,369 @@
+[
+  {
+    "rank": 1,
+    "name": "MENTORIA MAKERS",
+    "tier": "bronze",
+    "mentors": [
+      "Pedro Quintanilha"
+    ],
+    "members_count": 83,
+    "family_table_count": 3,
+    "attendees_with_club_field": 266,
+    "guests_count": 183,
+    "page_number": 176,
+    "audience_nicho": "educação / mentores"
+  },
+  {
+    "rank": 2,
+    "name": "FIRE CLUB",
+    "tier": "gold",
+    "mentors": [
+      "Jhonny Martins",
+      "Carla Martins"
+    ],
+    "members_count": 64,
+    "family_table_count": 5,
+    "attendees_with_club_field": 475,
+    "guests_count": 411,
+    "page_number": 23,
+    "audience_nicho": "contábil"
+  },
+  {
+    "rank": 3,
+    "name": "DOC4U",
+    "tier": "gold",
+    "mentors": [
+      "Davison Carvalho"
+    ],
+    "members_count": 64,
+    "family_table_count": 1,
+    "attendees_with_club_field": 244,
+    "guests_count": 180,
+    "page_number": 17,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 4,
+    "name": "ADVOGADO 10X",
+    "tier": "silver",
+    "mentors": [
+      "Cristiano Ferreira"
+    ],
+    "members_count": 60,
+    "family_table_count": 5,
+    "attendees_with_club_field": 332,
+    "guests_count": 272,
+    "page_number": 38,
+    "audience_nicho": "jurídico"
+  },
+  {
+    "rank": 5,
+    "name": "EMPREENDEDOC",
+    "tier": "silver",
+    "mentors": [
+      "Carlos Neto",
+      "Thais Berti"
+    ],
+    "members_count": 52,
+    "family_table_count": 5,
+    "attendees_with_club_field": 129,
+    "guests_count": 77,
+    "page_number": 54,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 6,
+    "name": "ENDOGIN",
+    "tier": "gold",
+    "mentors": [
+      "Caio Saraiva",
+      "Vinicius Carruego"
+    ],
+    "members_count": 49,
+    "family_table_count": 3,
+    "attendees_with_club_field": 256,
+    "guests_count": 207,
+    "page_number": 19,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 7,
+    "name": "MASTER ACELERADOR MÉDICO",
+    "tier": "gold",
+    "mentors": [
+      "Netto Lima",
+      "Nara Menezes"
+    ],
+    "members_count": 48,
+    "family_table_count": 4,
+    "attendees_with_club_field": 132,
+    "guests_count": 84,
+    "page_number": 27,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 8,
+    "name": "GL CLUB ENSINO",
+    "tier": "silver",
+    "mentors": [
+      "Gabriel Longuini",
+      "Zhara Longuini"
+    ],
+    "members_count": 44,
+    "family_table_count": 4,
+    "attendees_with_club_field": 102,
+    "guests_count": 58,
+    "page_number": 59,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 9,
+    "name": "Z SCALE CLUB",
+    "tier": "bronze",
+    "mentors": [
+      "Leandro Reche"
+    ],
+    "members_count": 43,
+    "family_table_count": 5,
+    "attendees_with_club_field": 178,
+    "guests_count": 135,
+    "page_number": 226,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 10,
+    "name": "PROSPERUS CLUB",
+    "tier": "gold",
+    "mentors": [
+      "Dani Martins"
+    ],
+    "members_count": 42,
+    "family_table_count": 6,
+    "attendees_with_club_field": 207,
+    "guests_count": 165,
+    "page_number": 32,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 11,
+    "name": "BLACK DIAMOND",
+    "tier": "bronze",
+    "mentors": [
+      "Walkyria Fernandes"
+    ],
+    "members_count": 41,
+    "family_table_count": 3,
+    "attendees_with_club_field": 95,
+    "guests_count": 54,
+    "page_number": 108,
+    "audience_nicho": "fisioterapia"
+  },
+  {
+    "rank": 12,
+    "name": "NEXT LEVEL",
+    "tier": "bronze",
+    "mentors": [
+      "Ro Lopes",
+      "Ale Lopes"
+    ],
+    "members_count": 41,
+    "family_table_count": 2,
+    "attendees_with_club_field": 60,
+    "guests_count": 19,
+    "page_number": 188,
+    "audience_nicho": "vendas"
+  },
+  {
+    "rank": 13,
+    "name": "DOCTOR 360",
+    "tier": "silver",
+    "mentors": [
+      "Natália Carneiro",
+      "Dr. Felipe Carneiro"
+    ],
+    "members_count": 39,
+    "family_table_count": 4,
+    "attendees_with_club_field": 105,
+    "guests_count": 66,
+    "page_number": 50,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 14,
+    "name": "MENTOREASY CLUB",
+    "tier": "silver",
+    "mentors": [
+      "Pedro Schwartzmann"
+    ],
+    "members_count": 37,
+    "family_table_count": 5,
+    "attendees_with_club_field": 92,
+    "guests_count": 55,
+    "page_number": 74,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 15,
+    "name": "SHP MASTER",
+    "tier": "gold",
+    "mentors": [
+      "Léo Toledo"
+    ],
+    "members_count": 33,
+    "family_table_count": 4,
+    "attendees_with_club_field": 194,
+    "guests_count": 161,
+    "page_number": 33,
+    "audience_nicho": "educação / mentores"
+  },
+  {
+    "rank": 16,
+    "name": "ODONTO ELITE",
+    "tier": "silver",
+    "mentors": [
+      "Dr. Cristiano Demartini"
+    ],
+    "members_count": 33,
+    "family_table_count": 2,
+    "attendees_with_club_field": 250,
+    "guests_count": 217,
+    "page_number": 78,
+    "audience_nicho": "odontologia"
+  },
+  {
+    "rank": 17,
+    "name": "SPUR",
+    "tier": "bronze",
+    "mentors": [
+      "Arthur Queiroz",
+      "Mario Magalhães",
+      "Samanta Sanchez",
+      "Eduardo Carmo"
+    ],
+    "members_count": 31,
+    "family_table_count": 5,
+    "attendees_with_club_field": 155,
+    "guests_count": 124,
+    "page_number": 212,
+    "audience_nicho": "educação / mentores"
+  },
+  {
+    "rank": 18,
+    "name": "MEDGEST CLUB",
+    "tier": "silver",
+    "mentors": [
+      "Domingos Mantelli",
+      "Rogério Magalhães",
+      "Erica Mantelli"
+    ],
+    "members_count": 31,
+    "family_table_count": 4,
+    "attendees_with_club_field": 68,
+    "guests_count": 37,
+    "page_number": 70,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 19,
+    "name": "TITTANIUM CLUB",
+    "tier": "silver",
+    "mentors": [
+      "Fernanda Tochetto"
+    ],
+    "members_count": 30,
+    "family_table_count": 3,
+    "attendees_with_club_field": 104,
+    "guests_count": 74,
+    "page_number": 86,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 20,
+    "name": "IMPACTO CLUB",
+    "tier": "bronze",
+    "mentors": [
+      "Fabinho Nascimento",
+      "Arthur Aguiar"
+    ],
+    "members_count": 29,
+    "family_table_count": 5,
+    "attendees_with_club_field": 132,
+    "guests_count": 103,
+    "page_number": 153,
+    "audience_nicho": "educação / mentores"
+  },
+  {
+    "rank": 21,
+    "name": "APEX",
+    "tier": "bronze",
+    "mentors": [
+      "Bruno Paladini"
+    ],
+    "members_count": 27,
+    "family_table_count": 4,
+    "attendees_with_club_field": 105,
+    "guests_count": 78,
+    "page_number": 100,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 22,
+    "name": "BRAIN",
+    "tier": "silver",
+    "mentors": [
+      "João Brognoli"
+    ],
+    "members_count": 27,
+    "family_table_count": 3,
+    "attendees_with_club_field": 75,
+    "guests_count": 48,
+    "page_number": 46,
+    "audience_nicho": "educação / mentores"
+  },
+  {
+    "rank": 23,
+    "name": "NEW MONEY CLUB",
+    "tier": "bronze",
+    "mentors": [
+      "Rodrigo Barbosa",
+      "Alessandra Barbosa"
+    ],
+    "members_count": 27,
+    "family_table_count": 2,
+    "attendees_with_club_field": 88,
+    "guests_count": 61,
+    "page_number": 189,
+    "audience_nicho": "educação / mentores"
+  },
+  {
+    "rank": 24,
+    "name": "ELEVATE MED CLUB",
+    "tier": "silver",
+    "mentors": [
+      "Katherine Pontes",
+      "Stefano Monteiro"
+    ],
+    "members_count": 27,
+    "family_table_count": 1,
+    "attendees_with_club_field": 52,
+    "guests_count": 25,
+    "page_number": 56,
+    "audience_nicho": "medicina / saúde"
+  },
+  {
+    "rank": 25,
+    "name": "CLAXCLUB",
+    "tier": "platinum",
+    "mentors": [
+      "Caio Carneiro",
+      "Flávio Augusto",
+      "Joel Jota"
+    ],
+    "members_count": 25,
+    "family_table_count": 0,
+    "attendees_with_club_field": 127,
+    "guests_count": 102,
+    "page_number": 10,
+    "audience_nicho": "educação / mentores"
+  }
+]
