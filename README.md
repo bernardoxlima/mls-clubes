@@ -1,6 +1,8 @@
 # MLS Clubes
 
-Fonte de conteúdo para o dossiê visual dos clubes da Mentoring League Society.
-Site: GitHub Pages (main /).
+Dossiê visual dos clubes da Mentoring League Society (não é futebol).
 
+**Site:** https://bernardoxlima.github.io/mls-clubes/
+
+Fonte em `content/`. Site estático na raiz (`index.html`). `noindex`.
 Não commitar lista de participantes do Festival (PII) nem o Members Book PDF.

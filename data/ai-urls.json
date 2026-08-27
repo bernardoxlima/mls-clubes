@@ -1,0 +1,179 @@
+{
+  "generated_at": "2026-08-27",
+  "timezone": "America/Sao_Paulo",
+  "note": "Public URLs and handles only. FACT unless marked. Instagram bios from public indexes where the IG app itself was login-walled.",
+  "league": {
+    "name": "Mentoring League Society",
+    "site": "https://mlsociety.co/",
+    "linkedin": "https://linkedin.com/company/mentoring-league-society",
+    "linkedin_pt_posts_index": "https://www.linkedin.com/company/mentoring-league-society"
+  },
+  "founders_ai_club": {
+    "names": ["Founders AI Club", "FoundersAI Club", "FoundersAI"],
+    "parent": "Delta Academy",
+    "mentor": "Guilherme Junqueira",
+    "sites": [
+      "https://deltaacademy.com.br/",
+      "https://deltaacademy.com.br/founders-ai",
+      "https://deltaacademy.com.br/delta-board",
+      "https://deltaacademy.com.br/delta-company"
+    ],
+    "adjacent_not_mls_club": {
+      "vibe_builders": "https://comunidade.foundersai.club/",
+      "vibe_builders_checkout": "https://pay.curseduca.com/comunidadefoundersaiclub/p/comunidade-foundersai"
+    },
+    "instagram": {
+      "club": "https://www.instagram.com/foundersai.club/",
+      "club_handle": "@foundersai.club",
+      "parent": "https://www.instagram.com/deltaacademy.ai/",
+      "parent_handle": "@deltaacademy.ai",
+      "mentor": "https://www.instagram.com/guijunqueira/",
+      "mentor_handle": "@guijunqueira",
+      "bio_index": "https://viralist.ai/instagram/creators/guijunqueira"
+    },
+    "linkedin": {
+      "club": "https://linkedin.com/company/foundersaiclub",
+      "club_pt_post_mls_join": "https://pt.linkedin.com/posts/foundersaiclub_ai-activity-7437964535199744000-TzyN",
+      "parent": "https://linkedin.com/company/deltaacademyai",
+      "parent_pt": "https://br.linkedin.com/company/deltaacademyai",
+      "parent_mls_join_post": "https://pt.linkedin.com/posts/deltaacademyai_ai-activity-7437964571530891264-OjQB",
+      "mentor": "https://linkedin.com/in/guijunqueira",
+      "mentor_pt": "https://br.linkedin.com/in/guijunqueira",
+      "mentor_mls_join_post": "https://pt.linkedin.com/posts/guijunqueira_ai-mentoria-activity-7437960569980354560-Yb22",
+      "mentor_diagnostic_post": "https://pt.linkedin.com/posts/guijunqueira_ai-faturamento-log%C3%ADstica-activity-7442352915874279424-5cZb",
+      "mentor_openclaw_post": "https://pt.linkedin.com/posts/guijunqueira_hoje-no-foundersai-club-a-mentoria-foi-sobre-activity-7432453681343774720-MF1Y",
+      "mentor_board_darwin_post": "https://pt.linkedin.com/posts/guijunqueira_existe-uma-diferen%C3%A7a-enorme-entre-saber-que-activity-7453550066805407746-kcgs",
+      "delta_middle_management_post": "https://pt.linkedin.com/posts/deltaacademyai_gest%C3%A3o-ia-lideran%C3%A7a-activity-7441944156861566977-nBYR"
+    },
+    "email": ["contato@deltaacademy.com.br", "suporte@deltaacademy.com.br"],
+    "youtube": {
+      "official_channel": null,
+      "appearances": [
+        "https://www.youtube.com/watch?v=dVVU8m2vz-M",
+        "https://www.youtube.com/watch?v=aqFUtLYgDto"
+      ]
+    },
+    "press": [
+      "https://revistapegn.globo.com/tecnologia/noticia/2025/12/apos-vender-gama-academy-guilherme-junqueira-volta-a-empreender-de-olho-nos-agentes-de-ia.ghtml",
+      "https://economiasp.com/2025/12/09/apos-venda-para-grupo-anima-empreendedor-cria-escola-para-formar-executivos-em-ia/"
+    ],
+    "github_mentor": "https://github.com/guijunqueira",
+    "application_form": null,
+    "whatsapp": null,
+    "ticket_price_public": null
+  },
+  "novaia_club": {
+    "names": ["NovaIA", "NOVAIA Club", "NovaIA Club", "Mentoria NovaIA"],
+    "mentors": ["Nelson Naibert", "Myrko Micali"],
+    "ops": "Israel Murat",
+    "parent_consultancy": "DoubleX / doubleX",
+    "sites": [
+      "https://novaiaclub.com/",
+      "https://doublex.com.br/mentoria-novaia"
+    ],
+    "email": "contato@novaiaclub.com.br",
+    "instagram": {
+      "club_handle": "@novaia.clubmls",
+      "mentor_handle": "@myrkomicali",
+      "mentor": "https://www.instagram.com/myrkomicali/",
+      "doublex_handle": "@doublex.tech",
+      "bio_index": "https://viralist.ai/instagram/creators/myrkomicali"
+    },
+    "linkedin": {
+      "company": "https://linkedin.com/company/novaiaclub",
+      "workshop_post": "https://pt.linkedin.com/posts/novaiaclub_inteligenciaartificial-iaparaempresas-activity-7470608950607081472-TvOw",
+      "ops": "https://www.linkedin.com/in/israelmurat"
+    },
+    "application": "https://novaiaclub.com/",
+    "whatsapp_cta": "DoubleX page 'Falar com um especialista' (number not captured)",
+    "public_filter": {
+      "min_revenue_brl": 3000000,
+      "investment_readiness_brl": 120000,
+      "label": "FACT as published copy, not confirmed as sticker price"
+    }
+  },
+  "clube_de_sucesso": {
+    "names": ["Clube de Sucesso"],
+    "mentor": "Renato de Saldanha da Gama",
+    "instagram": {
+      "mentor_handle": "@renatodesaldanha",
+      "club_handle": "@clubedesucesso"
+    },
+    "linkedin": {
+      "person": "https://www.linkedin.com/in/renato-de-saldanha-da-gama",
+      "company": "https://www.linkedin.com/company/clube-de-sucesso"
+    },
+    "whatsapp_public": "+55 11 95226-3161",
+    "cnpj_index": "https://databrasil.net/empresas/30444869000196-RENATO-DE-SALDANHA-DA-GAMA"
+  },
+  "cyber_ai_factory": {
+    "names": ["Cyber AI Factory", "SOC Tips", "Manual do CISO"],
+    "mentor": "Denny Roger",
+    "mls_club_trade_name": null,
+    "linkedin": {
+      "person": "https://www.linkedin.com/in/dennyroger",
+      "mls_socio_post": "https://pt.linkedin.com/posts/dennyroger_a-mentoring-league-society-mls-%C3%A9-uma-liga-activity-7494723946810884096-S4jm",
+      "product_post": "https://pt.linkedin.com/posts/dennyroger_soc-tips-entrou-em-uma-nova-fase-al%C3%A9m-da-activity-7478155549805580288-AVKh",
+      "factory_post": "https://pt.linkedin.com/posts/dennyroger_cyberaifactory-ia-cibergovernan%C3%A7a-activity-7488220133161590784-MlMU"
+    }
+  },
+  "one_code": {
+    "names": ["One Code", "ONE CODE"],
+    "festival_csv_string": "One Code",
+    "site": null,
+    "instagram": null,
+    "linkedin": null,
+    "possible_cnpj_unconfirmed": {
+      "name": "ONE CODE LTDA",
+      "cnpj": "63.669.017/0001-56",
+      "url": "https://guiapj.com.br/consulta-cnpj/63669017000156",
+      "match": "INFERENCE only"
+    }
+  },
+  "tech_sales_club": {
+    "ai_core": false,
+    "mentors": ["Diego Rodrigues", "Flávio Augusto"],
+    "linkedin": "https://linkedin.com/company/tech-sales-club",
+    "instagram": "https://www.instagram.com/techsalesclub/",
+    "instagram_handle": "@techsalesclub",
+    "bio_index": "https://viralist.ai/instagram/creators/techsalesclub"
+  },
+  "medgest_club": {
+    "ai_core": false,
+    "index_name_unverified": "MEDGEST IA",
+    "web_name": "Medgest Club",
+    "mentors": ["Domingos Mantelli", "Rogério Magalhães", "Caio Carneiro"],
+    "instagram": "https://www.instagram.com/medgest_club/",
+    "instagram_handle": "@medgest_club",
+    "bio_index": "https://viralist.ai/instagram/creators/medgest_club",
+    "press": [
+      "https://revistapeople.com.br/recem-lancado-medgest-club-projeto-voltado-a-medicos-e-gestores-da-saude-acaba-de-ingressar-na-mls-liga-de-empresarios-mais-influentes-do-brasil/",
+      "https://revistalifestyle.com.br/recem-lancado-medgest-club-projeto-voltado-a-medicos-e-gestores-da-saude-acaba-de-ingressar-na-mls-liga-de-empresarios-mais-influentes-do-brasil/"
+    ]
+  },
+  "frame_scale_club": {
+    "ai_core": false,
+    "index_name": "FRAME",
+    "related_club": "Scale Club",
+    "mentor": "Raphael Mattos",
+    "sites": [
+      "https://www.scaleclub.com.br/",
+      "https://oraphaelmattos.pages.net.br/scale-club"
+    ]
+  },
+  "other_mls_with_ai_perk_not_niche": {
+    "claxclub": "https://claxclub.com/",
+    "legacy_business_club": "https://legacybusiness.com.br/legacy-business-club/",
+    "mentoria_makers": "https://mentoriamakers.com.br/"
+  },
+  "festival_csv_ai_related_club_strings": {
+    "source": "workspace lista-evento-mls.csv club column, counts only",
+    "FoundersAI Club": 58,
+    "NovaIA": 24,
+    "One Code": 15,
+    "Tech Sales Club": 57,
+    "Medgest Club": 68,
+    "Scale Club": 92,
+    "Clube de Sucesso": 4
+  }
+}

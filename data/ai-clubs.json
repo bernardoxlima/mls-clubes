@@ -1,0 +1,848 @@
+[
+  {
+    "name": "MOOVR",
+    "name_variants": [
+      "Moovr Club"
+    ],
+    "tier": "gold",
+    "mentors": [
+      "Flávio Tavares",
+      "Érica Tavares"
+    ],
+    "promise": "O Moovr Club é uma plataforma de formação de líderes que desejam transformar sua experiência em impacto real. Aqui empresários passam por um processo de desenvolvimento que transforma conhecimento em método, método em mentoria e mentoria em comunidades estruturadas. E a partir destas comunidades, nascem grandes movimentos que transformam seus mercados.",
+    "tagline": "Formamos mentores que constroem movimentos",
+    "audience_nicho": "educação / mentores",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "3 encontros presencias de 2 dias por ano + encontros online semanais"
+      },
+      {
+        "label": "PLATAFORMA",
+        "detail": "Acesso à plataforma exclusiva com gravações"
+      },
+      {
+        "label": "WHATSAPP",
+        "detail": "grupo exclusivo de WhatsApp"
+      },
+      {
+        "label": "EXCLUSIVO",
+        "detail": "experiências extras com grandes marcas + ferramenta exclusiva de IA"
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "indicador",
+        "raw_text": "+500 milhões em valor já movimentado"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "milhões em valor já movimentado"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "+40 líderes fundadores"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "Rumo a 1 bilhão de valor em rede até 2026"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "1 bilhão de valor em rede até 2026"
+      }
+    ],
+    "page_number": 29,
+    "is_ai": false,
+    "ai_relevance": "adjacent",
+    "ai_notes": "menciona IA como pilar/ferramenta, não como tese",
+    "attendees_with_club_field": 61,
+    "members_count": 4,
+    "guests_count": 57,
+    "family_table_count": 2,
+    "pista_premium_count": 12,
+    "arquibancada_count": 47
+  },
+  {
+    "name": "FOUNDERSAI CLUB",
+    "name_variants": [
+      "FoundersAI Club",
+      "Founders AI Club"
+    ],
+    "tier": "silver",
+    "mentors": [
+      "Guilherme Junqueira"
+    ],
+    "promise": "Grupo para empresários que querem transformar suas empresas em AI-First. Guilherme Junqueira, unindo expertise em IA, educação e venture capital, conduz o Founders AI Club em uma jornada de educação, mentoria e orquestração para tornar empresas leves e lucrativas através de IA, para crescer receita sem crescer equipe.",
+    "tagline": "Mentoria AI-First para Empresários",
+    "audience_nicho": "AI / inteligência artificial",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "3 imersões presenciais + 48 mentorias online no ano"
+      },
+      {
+        "label": "PLATAFORMA",
+        "detail": "exclusiva"
+      },
+      {
+        "label": "WHATSAPP",
+        "detail": "grupo de WhatsApp com mentores"
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "faturamento",
+        "raw_text": "+R$1,8 bilhão em faturamento do grupo"
+      },
+      {
+        "metric": "faturamento",
+        "raw_text": "bilhão em faturamento do grupo"
+      },
+      {
+        "metric": "socios",
+        "raw_text": "+48 sócios"
+      },
+      {
+        "metric": "socios",
+        "raw_text": "sócios +2.600"
+      },
+      {
+        "metric": "colaboradores",
+        "raw_text": "+2.600 colaboradores impactados"
+      }
+    ],
+    "page_number": 57,
+    "is_ai": true,
+    "ai_relevance": "direct",
+    "ai_notes": "nome do clube é de IA; Founders AI Club / Guilherme Junqueira",
+    "attendees_with_club_field": 58,
+    "members_count": 6,
+    "guests_count": 52,
+    "family_table_count": 3,
+    "pista_premium_count": 34,
+    "arquibancada_count": 21
+  },
+  {
+    "name": "MEDCONECTT",
+    "name_variants": [
+      "Medconectt"
+    ],
+    "tier": "silver",
+    "mentors": [
+      "Gustavo Guimarães",
+      "Thaís Guimarães"
+    ],
+    "promise": "O clube é para médicos e profissionais da saúde que querem transformar suas clínicas em negócios de alta performance. Nossa comunidade reúne Intelgencia Artificial, gestão, marketing e vendas aplicados à saúde. A grande promessa: equipes preparadas, pacientes encantados e faturamento crescente.",
+    "tagline": "Transformando Médicos em Empreendedores",
+    "audience_nicho": "medicina / saúde",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "semanais individuais e em grupo e 2 encontros anuais"
+      },
+      {
+        "label": "EXCLUSIVO",
+        "detail": "mentoria exclusiva para as secretárias e equipe do médico"
+      },
+      {
+        "label": "GESTÃO",
+        "detail": "Mentoria individual do médico, mentoria da equipe do médico, IA de atendimento e vendas"
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "faturamento",
+        "raw_text": "+150 milhões de faturamento do grupo"
+      },
+      {
+        "metric": "faturamento",
+        "raw_text": "milhões de faturamento do grupo"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "Ecossitema com mais de 10 soluções"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "com mais de 10 soluções de implementação imediata"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "10 soluções de implementação imediata"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "70% de média de crescimento nos 3 primeiros meses"
+      }
+    ],
+    "page_number": 69,
+    "is_ai": true,
+    "ai_relevance": "adjacent",
+    "ai_notes": "inteligência artificial (grafia do book) na comunidade",
+    "attendees_with_club_field": 21,
+    "members_count": 10,
+    "guests_count": 11,
+    "family_table_count": 3,
+    "pista_premium_count": 18,
+    "arquibancada_count": 0
+  },
+  {
+    "name": "TECH SALES CLUB",
+    "name_variants": [
+      "Tech Sales Club"
+    ],
+    "tier": "silver",
+    "mentors": [
+      "Diego Rodrigues"
+    ],
+    "promise": "O TSC é um clube exclusivo para empreendedores que querem escalar seu faturamento por meio de vendas e da formação de times comerciais. Com o acompanhamento direto de Diego Rodrigues e Flávio Augusto, 70% dos nossos membros ultrapassaram 100% de ROI já nos 3 primeiros meses de mentoria.",
+    "tagline": "Vendas e formação de times comerciais",
+    "audience_nicho": "educação / mentores",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "3 aulas online ao vivo por semana e 2 encontros presenciais por ano"
+      },
+      {
+        "label": "WHATSAPP",
+        "detail": "acesso a um grupo exclusivo no WhatsApp com os mentores"
+      },
+      {
+        "label": "ACOMPANHAMENTO",
+        "detail": "Individualizado com o Diego Rodrigues"
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "indicador",
+        "raw_text": "+7 dígitos de vendas na abertura do clube"
+      },
+      {
+        "metric": "mentorados",
+        "raw_text": "+40 mentorados no grupo"
+      },
+      {
+        "metric": "mentorados",
+        "raw_text": "Internacional mentorados participantes de outros países"
+      }
+    ],
+    "page_number": 84,
+    "is_ai": false,
+    "ai_relevance": "adjacent",
+    "ai_notes": "Tech Sales — vendas/times comerciais; tech no nome, sem IA no pitch",
+    "attendees_with_club_field": 57,
+    "members_count": 4,
+    "guests_count": 53,
+    "family_table_count": 6,
+    "pista_premium_count": 25,
+    "arquibancada_count": 26
+  },
+  {
+    "name": "6D",
+    "name_variants": [
+      "6D - Aceleradora de Resultados"
+    ],
+    "tier": "bronze",
+    "mentors": [
+      "Kenia Gama"
+    ],
+    "promise": "No programa de aceleração você terá uma visão individual e estratégica da Kenia Gama e seu time para alavancar os seus resultados em tempo Record. Através dos principais pilares: Liderança, Gestão, Marketing, Vendas e IA.",
+    "tagline": "Programa de Aceleração para Empresários",
+    "audience_nicho": "educação / mentores",
+    "deliveries": [
+      {
+        "label": "MENTORIA INDIVIDUAL",
+        "detail": "2 sessões com a Kenia"
+      },
+      {
+        "label": "PLATAFORMA",
+        "detail": "Área de membros com acesso a conteúdo técnico e estratégico de cada pilar"
+      },
+      {
+        "label": "WHATSAPP",
+        "detail": "Comunidade exclusiva com mentorados + time de consultoras e mentora"
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "faturamento",
+        "raw_text": "+200 milhões de faturamento"
+      },
+      {
+        "metric": "faturamento",
+        "raw_text": "milhões de faturamento"
+      },
+      {
+        "metric": "colaboradores",
+        "raw_text": "+500 colaboradores"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "+100 mil clientes atendidos"
+      }
+    ],
+    "page_number": 92,
+    "is_ai": false,
+    "ai_relevance": "adjacent",
+    "ai_notes": "menciona IA como pilar/ferramenta, não como tese",
+    "attendees_with_club_field": 8,
+    "members_count": 7,
+    "guests_count": 1,
+    "family_table_count": 5,
+    "pista_premium_count": 3,
+    "arquibancada_count": 0
+  },
+  {
+    "name": "CLUB OFTALMOBLACK",
+    "name_variants": [],
+    "tier": "bronze",
+    "mentors": [
+      "Alex Sá"
+    ],
+    "promise": "OftalmoBlack é para o oftalmologista que quer se tornar referência e autoridade na oftalmologia premium. Um ecossistema completo com método próprio, Sistema Black (CRM e prontuário com IA), tráfego e SEO rodando pela clínica e geração de demanda particular. Menos dependência de convênio, mais faturamento e mais liberdade.",
+    "tagline": "Seja um faixa preta da oftalmologia premium",
+    "audience_nicho": "oftalmologia / ótica",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "2 encontros presenciais por ano + Encontros semanais online"
+      },
+      {
+        "label": "PLATAFORMA",
+        "detail": "Plataforma exclusiva com o método dos 15 pilares e todas as aulas gravadas + Comunidade exclusiva no WhatsApp."
+      },
+      {
+        "label": "SISTEMA BLACK",
+        "detail": "CRM e prontuário com IA implantados na clínica, para parar de perder lead e escalar com previsibilidade."
+      },
+      {
+        "label": "MÁQUINA DE DEMANDA",
+        "detail": "Estrutura de tráfego, SEO e geração de demanda particular para atrair o paciente premium."
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "indicador",
+        "raw_text": "Milhões de seguidores somados entre os médicos do"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "+419 mil seguidores no @dralexsa"
+      },
+      {
+        "metric": "mentorados",
+        "raw_text": "R$ de 7 dígitos/mês o patamar dos mentorados que"
+      },
+      {
+        "metric": "mentorados",
+        "raw_text": "dígitos/mês o patamar dos mentorados que mais escalaram"
+      }
+    ],
+    "page_number": 126,
+    "is_ai": false,
+    "ai_relevance": "adjacent",
+    "ai_notes": "menciona IA como pilar/ferramenta, não como tese",
+    "attendees_with_club_field": 0,
+    "members_count": 0,
+    "guests_count": 0,
+    "family_table_count": 0,
+    "pista_premium_count": 0,
+    "arquibancada_count": 0
+  },
+  {
+    "name": "CLUBE DE SUCESSO",
+    "name_variants": [
+      "Clube de Sucesso"
+    ],
+    "tier": "bronze",
+    "mentors": [
+      "Renato de Saldanha"
+    ],
+    "promise": "Liderado por Renato de Saldanha, o Clube de Sucesso é o primeiro hub a integrar Pessoas, Conhecimento e IA em um único ecossistema para experts, mentores e empresários que desejam estruturar negócios previsíveis, lucrativos e escaláveis. Em 90 dias, instala cockpit central, processos comerciais com automações inteligentes, agentes de IA e operação autônoma.",
+    "tagline": "Programa de Aceleração Inteligente",
+    "audience_nicho": "educação / mentores",
+    "deliveries": [
+      {
+        "label": "PLATAFORMA EXCLUSIVA",
+        "detail": "Hub digital com toda a metodologia do Clube de Sucesso organizada em trilhas progressivas"
+      },
+      {
+        "label": "GRUPO VIP NO WHATSAPP",
+        "detail": "Comunidade com Renato de Saldanha e membros, focada em networking, direcionamentos e troca de experiências."
+      },
+      {
+        "label": "INTELIGÊNCIA ARTIFICIAL",
+        "detail": "Agentes de IA para leads, follow-up e otimização comercial, com tutor 24/7"
+      },
+      {
+        "label": "ADVISOR MEETING 1:1 TRIMESTRAL",
+        "detail": "Reunião com Renato para análise estratégica, ajustes e definição dos próximos passos."
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "indicador",
+        "raw_text": "+R$28 milhões gerados em novos negócios"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "milhões gerados em novos negócios"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "+288 lançamentos executados"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "+10 anos de atuação no mercado digital"
+      }
+    ],
+    "page_number": 117,
+    "is_ai": false,
+    "ai_relevance": "adjacent",
+    "ai_notes": "menciona inteligência artificial no texto, sem ser o núcleo do clube",
+    "attendees_with_club_field": 4,
+    "members_count": 2,
+    "guests_count": 2,
+    "family_table_count": 1,
+    "pista_premium_count": 0,
+    "arquibancada_count": 3
+  },
+  {
+    "name": "ELITE PREMIUM",
+    "name_variants": [
+      "Elite Premium"
+    ],
+    "tier": "bronze",
+    "mentors": [
+      "Querobin",
+      "Kennedy"
+    ],
+    "promise": "Para empreendedores que recusam ser amadores. Aqui formamos empresários de verdade, prontos para escalar com inteligência, estrutura e lucro. A jornada é de alta performance: vendas, gestão, IA e mentalidade. A promessa? Transformar negócios comuns em máquinas que crescem e prosperam.",
+    "tagline": "O maior movimento de profissionalização de empreendedores do Brasil",
+    "audience_nicho": "educação / mentores",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "4 encontros online por mês e 1 encontro presencial de dois dias por ano"
+      },
+      {
+        "label": "ACOMPANHAMENTO",
+        "detail": "personalizado"
+      },
+      {
+        "label": "WHATSAPP",
+        "detail": "Acompanhamento individual pelo WhatsApp"
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "socios",
+        "raw_text": "+R$200 milhões gerados pelos membros"
+      },
+      {
+        "metric": "socios",
+        "raw_text": "milhões gerados pelos membros"
+      },
+      {
+        "metric": "mentorados",
+        "raw_text": "145 mentorados Presente"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "Presente em todos os estados"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "em todos os estados do país"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "os estados do país"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "do país"
+      }
+    ],
+    "page_number": 134,
+    "is_ai": false,
+    "ai_relevance": "adjacent",
+    "ai_notes": "menciona IA como pilar/ferramenta, não como tese",
+    "attendees_with_club_field": 87,
+    "members_count": 15,
+    "guests_count": 72,
+    "family_table_count": 3,
+    "pista_premium_count": 36,
+    "arquibancada_count": 48
+  },
+  {
+    "name": "GUIA-SE CLUB",
+    "name_variants": [
+      "Guia-se Club"
+    ],
+    "tier": "bronze",
+    "mentors": [
+      "Zé Rubens Oliva"
+    ],
+    "promise": "Mentoria para empreendedores inquietos que querem encontrar novos lucros em seus negócios através de criação de novos produtos, marketing e vendas. Nessa mentoria você encontra novos lucros escondidos.",
+    "tagline": "Mentoria para empreendedores",
+    "audience_nicho": "educação / mentores",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "3 encontros presenciais de 1 ou 2 dias ao longo do ano e encontros mensais online"
+      },
+      {
+        "label": "PLATAFORMA",
+        "detail": "Plataforma com os encontros gravados"
+      },
+      {
+        "label": "TREINAMENTO/SUPORTE",
+        "detail": "treinamento e suporte de marketing e IA para o time"
+      },
+      {
+        "label": "WHATSAPP",
+        "detail": "Grupo exclusivo de WhatsApp"
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "indicador",
+        "raw_text": "+100 milhões"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "milhões"
+      },
+      {
+        "metric": "socios",
+        "raw_text": "+30 sócios"
+      },
+      {
+        "metric": "socios",
+        "raw_text": "sócios"
+      },
+      {
+        "metric": "colaboradores",
+        "raw_text": "+300 colaboradores"
+      },
+      {
+        "metric": "colaboradores",
+        "raw_text": "colaboradores"
+      }
+    ],
+    "page_number": 145,
+    "is_ai": false,
+    "ai_relevance": "adjacent",
+    "ai_notes": "menciona IA como pilar/ferramenta, não como tese",
+    "attendees_with_club_field": 27,
+    "members_count": 7,
+    "guests_count": 20,
+    "family_table_count": 5,
+    "pista_premium_count": 5,
+    "arquibancada_count": 17
+  },
+  {
+    "name": "MEDGEST IA",
+    "name_variants": [],
+    "tier": "bronze",
+    "mentors": [
+      "Galdino",
+      "Domingos Mantelli",
+      "Rogério Magalhães"
+    ],
+    "promise": "Para médicos e gestores de clínicas que desejam usar Inteligência Artificial para ganhar eficiência, melhorar decisões clínicas e escalar resultados. A comunidade reúne profissionais inovadores que querem liderar a nova medicina. Durante a jornada, trabalhamos IA aplicada à gestão, automação, produtividade e receita.",
+    "tagline": "Club de mentoria de IA para Médicos",
+    "audience_nicho": "AI / inteligência artificial",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "2 encontros presencias + 12 encontros online"
+      },
+      {
+        "label": "PLATAFORMA",
+        "detail": "com vídeos gravados"
+      },
+      {
+        "label": "WHATSAPP",
+        "detail": "Grupo de WhatsApp exclusivo"
+      }
+    ],
+    "social_proof": [],
+    "page_number": 180,
+    "is_ai": true,
+    "ai_relevance": "direct",
+    "ai_notes": "nome do clube é de IA; tese do clube é IA; inteligência artificial no pitch",
+    "attendees_with_club_field": 0,
+    "members_count": 0,
+    "guests_count": 0,
+    "family_table_count": 0,
+    "pista_premium_count": 0,
+    "arquibancada_count": 0
+  },
+  {
+    "name": "NOVA IA",
+    "name_variants": [
+      "NovaIA"
+    ],
+    "tier": "bronze",
+    "mentors": [
+      "Myrko Micali",
+      "Nelson Naibert"
+    ],
+    "promise": "Para empreendedores, executivos e mentores que querem revolucionar negócios com IA e liderar o futuro. Aqui, você aprende a escalar operações, aumentar a competitividade, impulsionar a superprodutividade e gerar resultados reais. Com networking estratégico, inovação, cases práticos e conhecimento aplicado, você terá as ferramentas para transformar seu negócio.",
+    "tagline": "Inovação em Modelos de Negócios com IA",
+    "audience_nicho": "AI / inteligência artificial",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "10 encontros online e 4 encontros presenciais de um dia por ano"
+      },
+      {
+        "label": "EVENTOS INTERNACIONAIS",
+        "detail": "presença global e eventos em diversos países"
+      },
+      {
+        "label": "WHATSAPP",
+        "detail": "grupo exclusivo com todos os membros"
+      },
+      {
+        "label": "APOIO TÉCNICO DE IA",
+        "detail": "Disponibilidade semanal de um técnico para tirar dúvidas"
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "faturamento",
+        "raw_text": "+200 milhões em receita do grupo"
+      },
+      {
+        "metric": "faturamento",
+        "raw_text": "milhões em receita do grupo"
+      },
+      {
+        "metric": "socios",
+        "raw_text": "+35 sócios no grupo"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "+25 anos de experiência"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "anos de experiência"
+      }
+    ],
+    "page_number": 193,
+    "is_ai": true,
+    "ai_relevance": "direct",
+    "ai_notes": "nome do clube é de IA; tese do clube é IA",
+    "attendees_with_club_field": 24,
+    "members_count": 6,
+    "guests_count": 18,
+    "family_table_count": 5,
+    "pista_premium_count": 1,
+    "arquibancada_count": 18
+  },
+  {
+    "name": "ONE CODE",
+    "name_variants": [
+      "One Code"
+    ],
+    "tier": "bronze",
+    "mentors": [],
+    "promise": "",
+    "tagline": "",
+    "audience_nicho": "AI / inteligência artificial",
+    "deliveries": [],
+    "social_proof": [],
+    "page_number": null,
+    "is_ai": true,
+    "ai_relevance": "direct",
+    "ai_notes": "nome do clube é de IA; One Code (índice; página não localizada no book)",
+    "attendees_with_club_field": 15,
+    "members_count": 5,
+    "guests_count": 10,
+    "family_table_count": 2,
+    "pista_premium_count": 13,
+    "arquibancada_count": 0
+  },
+  {
+    "name": "PR1ME ROI",
+    "name_variants": [
+      "Pr1me ROI"
+    ],
+    "tier": "bronze",
+    "mentors": [
+      "Canina",
+      "Raphael Cioli"
+    ],
+    "promise": "A PR1ME ROI é um programa premium de engenharia de negócios e receita, construído lado a lado com empresas e profissionais referência que trabalham com produtos ou serviços de alto valor. Entregamos ROI completo financeiro, estratégico, operacional e mental: crescimento, lucro e liberdade.",
+    "tagline": "Direção Comercial para Vendas de Alto Valor",
+    "audience_nicho": "vendas",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "7 encontros individuais + 2 sessões especiais online + 1 evento presencial por ano."
+      },
+      {
+        "label": "METODOLOGIAS",
+        "detail": "30 eventos ao vivo para reforço da metodologia e esclarecimento de dúvidas."
+      },
+      {
+        "label": "WHATSAPP",
+        "detail": "Comunidade PR1ME e grupo individual."
+      },
+      {
+        "label": "FERRAMENTAS",
+        "detail": "Acesso a CRM e IA."
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "indicador",
+        "raw_text": "+26 anos de experiencia empreendedora, estratégica e comercial"
+      },
+      {
+        "metric": "faturamento",
+        "raw_text": "+2 bilhões em faturamento gerado dentro das carreiras e negócios dos socios"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "+100 mil empresários treinados em mais de 40 países em todos os continentes"
+      }
+    ],
+    "page_number": 200,
+    "is_ai": false,
+    "ai_relevance": "adjacent",
+    "ai_notes": "menciona IA como pilar/ferramenta, não como tese",
+    "attendees_with_club_field": 4,
+    "members_count": 0,
+    "guests_count": 4,
+    "family_table_count": 4,
+    "pista_premium_count": 0,
+    "arquibancada_count": 0
+  },
+  {
+    "name": "PRONIX CLUB",
+    "name_variants": [],
+    "tier": "bronze",
+    "mentors": [
+      "Hugo Vasconcelos",
+      "Gustavo Dias",
+      "Josef Rubin",
+      "Hendel Favarin"
+    ],
+    "promise": "Ajudamos empresários que já faturam mais de 300 mil por mês no Mercado Livre a subirem de nível em estratégia, gestão e negócios dentro de um grupo seleto.",
+    "tagline": "Mentoria para empresários dos marketplaces",
+    "audience_nicho": "educação / mentores",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "2 encontros presenciais anuais + Encontros mensais online e ao vivo"
+      },
+      {
+        "label": "SPRINTS",
+        "detail": "Sprints de execução e aceleração de resultado online"
+      },
+      {
+        "label": "WHATSAPP",
+        "detail": "Grupo de WhatsApp com todos os sócios e os mentores"
+      },
+      {
+        "label": "EXPERIÊNCIAS EXTRAS",
+        "detail": "Grupo exclusivo com todos os membros e o mentor + experiências exclusivas"
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "indicador",
+        "raw_text": "+100 milhões gerados anualmente no grupo"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "milhões gerados anualmente no grupo"
+      },
+      {
+        "metric": "colaboradores",
+        "raw_text": "+500 colaboradores impactados"
+      },
+      {
+        "metric": "socios",
+        "raw_text": "+ de 30 sócios no grupo"
+      }
+    ],
+    "page_number": 203,
+    "is_ai": false,
+    "ai_relevance": "adjacent",
+    "ai_notes": "marketplaces / ops digitais",
+    "attendees_with_club_field": 0,
+    "members_count": 0,
+    "guests_count": 0,
+    "family_table_count": 0,
+    "pista_premium_count": 0,
+    "arquibancada_count": 0
+  },
+  {
+    "name": "TÁSSALA CLUB",
+    "name_variants": [
+      "Tássala Club"
+    ],
+    "tier": "bronze",
+    "mentors": [
+      "Fer Miguel",
+      "Rafa Moraes"
+    ],
+    "promise": "Você pode ser excelente tecnicamente e ainda assim permanecer no mesmo nível. Porque não é sobre medicina, é sobre negócio. Médicos não precisam de mais esforço, mas de estrutura para crescer com lucro, previsibilidade e liberdade. É isso que construímos com um ecossistema financeiro que organiza, protege e acelera o crescimento.",
+    "tagline": "Mentoria de finanças e negócios para médicos",
+    "audience_nicho": "medicina / saúde",
+    "deliveries": [
+      {
+        "label": "ENCONTROS",
+        "detail": "2 encontros presenciais ao longo do ano + 18 encontros de hotseat"
+      },
+      {
+        "label": "ACOMPANHAMENTO",
+        "detail": "com mentoras e equipe especializada, planejamento financeiro pessoal e estratégico empresarial"
+      },
+      {
+        "label": "FERRAMENTAS",
+        "detail": "Área de membros, IA para gestão financeira, plataforma de controle para mentorados + Grupo de Wpp"
+      },
+      {
+        "label": "EXPERIÊNCIAS",
+        "detail": "Viagem com os mentorados, gestor de viagens exclusivo dos membros, ecossistema financeiro com todas as"
+      }
+    ],
+    "social_proof": [
+      {
+        "metric": "roi",
+        "raw_text": "400% de ROI médio"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "+100 médicos ativos no ecossistema"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "médicos ativos no ecossistema"
+      },
+      {
+        "metric": "indicador",
+        "raw_text": "60% de retenção desde 2022"
+      }
+    ],
+    "page_number": 214,
+    "is_ai": false,
+    "ai_relevance": "adjacent",
+    "ai_notes": "menciona IA como pilar/ferramenta, não como tese",
+    "attendees_with_club_field": 17,
+    "members_count": 7,
+    "guests_count": 10,
+    "family_table_count": 5,
+    "pista_premium_count": 0,
+    "arquibancada_count": 12
+  }
+]

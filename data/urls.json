@@ -1,0 +1,420 @@
+{
+  "generated_at": "2026-08-27",
+  "timezone": "America/Sao_Paulo",
+  "note": "Public URLs and handles only. FACT unless marked. Instagram bios from Viralist public index (IG app is login-walled). No Apify. No PII from lista-evento-mls.csv. Handles that 200 on instagram.com but 404 on Viralist are omitted or marked unverified.",
+  "league": {
+    "name": "Mentoring League Society",
+    "site": "https://mlsociety.co/",
+    "linkedin": "https://linkedin.com/company/mentoring-league-society"
+  },
+  "clubs": [
+    {
+      "rank": 1,
+      "name": "MENTORIA MAKERS",
+      "tier": "bronze",
+      "members_count": 83,
+      "attendees_with_club_field": 266,
+      "book_page": 176,
+      "mentors": ["Pedro Quintanilha"],
+      "nicho": "educação / mentores",
+      "sites": [
+        "https://mentoriamakers.com.br/",
+        "https://mentoriamakers.com.br/mm/",
+        "https://mentoriamakers.com.br/imht-e-lote2/",
+        "https://mentalidadeempreendedora.com.br/",
+        "https://mentalidademaster.com.br/"
+      ],
+      "apply": "https://mentoriamakers.com.br/",
+      "instagram": {
+        "founder": "@phmquintanilha",
+        "parent": "@mentalidadeempreendedora.me",
+        "club": "@mentoriamakers.mls",
+        "club_note": "Viralist: 0 posts / 0 followers — empty satellite"
+      },
+      "funnel": ["landing", "apply_form", "diagnostic_call", "whatsapp"],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": "CNPJ + > R$ 30 mil/mês (site gate)",
+      "acquisition": ["personal_brand", "youtube", "podcast", "ig_comment_Plano"]
+    },
+    {
+      "rank": 2,
+      "name": "FIRE CLUB",
+      "tier": "gold",
+      "members_count": 64,
+      "attendees_with_club_field": 475,
+      "book_page": 23,
+      "mentors": ["Jhonny Martins", "Carla Martins"],
+      "nicho": "contábil",
+      "sites": [],
+      "adjacent_not_club_lp": ["https://missaofire.com/"],
+      "do_not_use": ["https://fireclub.com.br/"],
+      "apply": null,
+      "instagram": {
+        "founder": "@jhonnymartins",
+        "cofounder": "@soucarlamartins",
+        "serac": "@sou_serac",
+        "club": null
+      },
+      "linkedin": [
+        "https://www.linkedin.com/in/jhonnymartins",
+        "https://pt.linkedin.com/posts/jhonny-martins-988a31165_o-fire-club-%C3%A9-um-clube-exclusivo-dentro-da-activity-7259692349876801536-9nc5"
+      ],
+      "press": [
+        "https://www.terra.com.br/noticias/educacao/mentorias-coletivas-superam-mbas-e-se-consolidam-como-estrategia-de-alta-performance,617c84c223368b9e176dcdff46e3a584wvxlzxmh.html"
+      ],
+      "funnel": ["ig_or_linkedin_comment_FIRE", "team_contact"],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": null,
+      "acquisition": ["personal_brand", "pr", "serac_graph"]
+    },
+    {
+      "rank": 3,
+      "name": "DOC4U",
+      "tier": "gold",
+      "members_count": 64,
+      "attendees_with_club_field": 244,
+      "book_page": 17,
+      "mentors": ["Davison Carvalho"],
+      "co_mentor_public": "Flávio Augusto",
+      "nicho": "medicina / saúde",
+      "sites": [],
+      "apply": "https://bit.ly/doc4u-aplicacao",
+      "apply_resolved": "https://doc4u.typeform.com/to/n3sCyp0T",
+      "linkedin": "https://linkedin.com/company/doc4umentoria",
+      "instagram": {
+        "club": "@doc4u.mentoria",
+        "club_followers_viralist": "59.4K",
+        "founder": "@davisoncarvalho",
+        "co_mentor": "@geracaodevalor"
+      },
+      "funnel": ["ig_bio", "typeform_apply", "executive_call"],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": null,
+      "acquisition": ["personal_brand", "flavio_augusto", "ig_reels"]
+    },
+    {
+      "rank": 4,
+      "name": "ADVOGADO 10X",
+      "tier": "silver",
+      "members_count": 60,
+      "attendees_with_club_field": 332,
+      "book_page": 38,
+      "mentors": ["Cristiano Ferreira"],
+      "nicho": "jurídico",
+      "sites": [
+        "https://advogado10x.com.br/",
+        "https://advogado10x.com.br/nossas-marcas/",
+        "https://advogado10x.com.br/desafio-advogado-10x/",
+        "https://advogado10x.com.br/mentoria-individual-advogado-10x-2/"
+      ],
+      "hotmart_frontend": "https://hotmart.com/pt-br/marketplace/produtos/mentoria-em-grupo-advogado10x-2/O15238490W",
+      "apply": "https://advogado10x.com.br/ (diagnóstico / WhatsApp CTA)",
+      "instagram": { "brand": "@advogado10x" },
+      "funnel": ["content_site", "desafio_or_hotmart", "whatsapp", "diagnostico"],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": null,
+      "acquisition": ["personal_brand", "youtube", "events", "seo"]
+    },
+    {
+      "rank": 5,
+      "name": "EMPREENDEDOC",
+      "tier": "silver",
+      "members_count": 52,
+      "attendees_with_club_field": 129,
+      "book_page": 54,
+      "mentors": ["Carlos Neto", "Thais Berti"],
+      "nicho": "medicina / saúde",
+      "sites": ["https://www.empreendedoc.com.br/"],
+      "linktree": "https://linktr.ee/drcarlosnetooficial",
+      "apply": "https://www.empreendedoc.com.br/ (CTA Preencher minha Aplicação)",
+      "instagram": {
+        "founder": "@drcarlosneto.oficial",
+        "cofounder_clinic": "@drathaisberti"
+      },
+      "youtube": "listed on linktree (EmpreendeDOC Podcast)",
+      "funnel": ["landing", "apply", "onboarding_diagnostico"],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": null,
+      "acquisition": ["personal_brand", "youtube", "podcast"]
+    },
+    {
+      "rank": 6,
+      "name": "ENDOGIN",
+      "tier": "gold",
+      "members_count": 49,
+      "attendees_with_club_field": 256,
+      "book_page": 19,
+      "mentors": ["Caio Saraiva", "Vinicius Carruego"],
+      "nicho": "medicina / saúde",
+      "sites": [
+        "https://mentoriaendogin.com.br/",
+        "https://cursoendogin.com.br/"
+      ],
+      "apply": "https://mentoriaendogin.com.br/",
+      "instagram": { "club": "@mentoria.endogin" },
+      "funnel": ["event_checkout", "mentoria_apply", "whatsapp"],
+      "vsl": null,
+      "ticket_price_public": {
+        "club": null,
+        "event_2026_alphaville": {
+          "online_or_classic": "R$ 10.997",
+          "vip": "R$ 20.997",
+          "vip_hands_on": "R$ 26.000",
+          "diamond": "R$ 31.000",
+          "diamond_hands_on": "R$ 36.000"
+        }
+      },
+      "min_revenue_public": "form buckets from < R$25k/mês to > R$1M/mês",
+      "acquisition": ["event", "personal_brand", "ig"]
+    },
+    {
+      "rank": 7,
+      "name": "MASTER ACELERADOR MÉDICO",
+      "tier": "gold",
+      "members_count": 48,
+      "attendees_with_club_field": 132,
+      "book_page": 27,
+      "mentors": ["Netto Lima", "Nara Menezes"],
+      "nicho": "medicina / saúde",
+      "sites": [
+        "https://aceleradormedico.com.br/",
+        "https://aceleradormedico.com.br/master/"
+      ],
+      "apply": "https://aceleradormedico.com.br/master/",
+      "instagram": {
+        "brand": "@aceleradormedico",
+        "followers_viralist": "57.2K"
+      },
+      "funnel": ["youtube", "events", "apply_form", "consultoria_45min"],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": "home: ultrapassar R$ 500 mil/mês; master LP headline: consultórios > R$ 1.000.000/mês",
+      "acquisition": ["youtube", "personal_brand", "events", "ig"]
+    },
+    {
+      "rank": 8,
+      "name": "GL CLUB ENSINO",
+      "tier": "silver",
+      "members_count": 44,
+      "attendees_with_club_field": 102,
+      "book_page": 59,
+      "mentors": ["Gabriel Longuini", "Zhara Longuini"],
+      "nicho": "medicina / saúde",
+      "sites": [
+        "https://gabriellonguiniclub.com.br/",
+        "https://gabriellonguiniclub.com.br/lp-sessao-estrategica/"
+      ],
+      "apply": "https://gabriellonguiniclub.com.br/",
+      "instagram": { "founder": null, "note": "not Viralist-confirmed" },
+      "funnel": ["landing", "public_checkout", "sessao_estrategica"],
+      "vsl": null,
+      "ticket_price_public": "R$ 25.000 à vista or R$ 2.000 + 10x R$ 2.800",
+      "min_revenue_public": "copy: clínica > R$ 100.000 (aspiration, not a gate)",
+      "acquisition": ["personal_brand", "imersao_6d"]
+    },
+    {
+      "rank": 9,
+      "name": "Z SCALE CLUB",
+      "tier": "bronze",
+      "members_count": 43,
+      "attendees_with_club_field": 178,
+      "book_page": 226,
+      "mentors": ["Leandro Reche"],
+      "nicho": "medicina / saúde",
+      "sites": [
+        "https://leandroreche.com.br/",
+        "https://leandroreche.com.br/sessao_de_diagnostico/",
+        "https://leandroreche.com.br/zennit/"
+      ],
+      "do_not_use": ["https://www.scaleclub.com.br/"],
+      "apply": "https://leandroreche.com.br/sessao_de_diagnostico/",
+      "instagram": { "founder": "@leandroreche", "followers_viralist": "43.5K" },
+      "funnel": ["ig_bio", "diagnostic_session", "team_contact", "workshop"],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": null,
+      "acquisition": ["personal_brand", "youtube"]
+    },
+    {
+      "rank": 10,
+      "name": "PROSPERUS CLUB",
+      "tier": "gold",
+      "members_count": 42,
+      "attendees_with_club_field": 207,
+      "book_page": 32,
+      "mentors": ["Dani Martins"],
+      "co_mentor_public": "Joel Jota",
+      "nicho": "medicina / saúde (book) / empresários (site)",
+      "sites": [
+        "https://prosperusclub.com.br/",
+        "https://lp.salesprime.com.br/prosperus-club-lps-dos-motores/",
+        "https://prosperusclub.com.br/palestra-dani-martins-a-maior-autoridade-em-vendas-do-brasil/"
+      ],
+      "apply": "https://prosperusclub.com.br/",
+      "instagram": {
+        "club": "@prosperusclub",
+        "club_followers_viralist": "10.3K",
+        "founder": "@danimartinspro",
+        "founder_followers_viralist": "315.5K"
+      },
+      "funnel": ["ig_live_or_comment", "apply_form", "closer"],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": "one Sales Prime LP: > R$ 10 milhões / ano",
+      "acquisition": ["personal_brand", "ig_lives", "joel_jota"]
+    },
+    {
+      "rank": 11,
+      "name": "BLACK DIAMOND",
+      "tier": "bronze",
+      "members_count": 41,
+      "attendees_with_club_field": 95,
+      "book_page": 108,
+      "mentors": ["Walkyria Fernandes"],
+      "nicho": "fisioterapia",
+      "sites": ["https://institutowalkyriafernandes.com.br/"],
+      "hotmart_frontend": "https://hotmart.com/pt-br/marketplace/produtos/mentoria-black-a01rj/K67812730V",
+      "do_not_use": ["https://mentoriablackdiamond.com/"],
+      "apply": null,
+      "instagram": {
+        "founder": "@drawalkyria_fernandes",
+        "founder_followers_viralist": "336.6K",
+        "club_cited_in_bio": "@blackdiamond.mentoring"
+      },
+      "funnel": ["ig_clinical_tofu", "pos_or_black_friday", "mentoria_black_hotmart"],
+      "vsl": null,
+      "ticket_price_public": {
+        "club": null,
+        "pos_rca": "12x R$ 159,70"
+      },
+      "min_revenue_public": null,
+      "acquisition": ["personal_brand", "ads_option_on_form", "ig"]
+    },
+    {
+      "rank": 12,
+      "name": "NEXT LEVEL",
+      "tier": "bronze",
+      "members_count": 41,
+      "attendees_with_club_field": 60,
+      "book_page": 188,
+      "mentors": ["Ro Lopes", "Ale Lopes"],
+      "nicho": "vendas",
+      "sites": [],
+      "do_not_use": ["https://nextlevelbrasil.com.br/"],
+      "apply": null,
+      "instagram": {
+        "club_unverified": "@nextlevel.club_",
+        "podcast_linkedin": "@podcash.ro"
+      },
+      "linkedin_identity_launch": "https://pt.linkedin.com/posts/vitor-v-0a5b41136_tive-o-privil%C3%A9gio-de-desenvolver-toda-a-identidade-activity-7463232837165576192-tQTI",
+      "funnel": [],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": null,
+      "acquisition": ["personal_brand", "franchise_network", "podcast"]
+    },
+    {
+      "rank": 13,
+      "name": "DOCTOR 360",
+      "tier": "silver",
+      "members_count": 39,
+      "attendees_with_club_field": 105,
+      "book_page": 50,
+      "mentors": ["Natália Carneiro", "Dr. Felipe Carneiro"],
+      "nicho": "medicina / saúde",
+      "sites": ["https://www.360doctor.com.br/"],
+      "apply": null,
+      "instagram": {
+        "founder": "@natalia.f.carneiro",
+        "club_cited_in_bio": "@doctor360mentoria"
+      },
+      "press": [
+        "https://valor.globo.com/patrocinado/pressworks/noticia/2026/06/02/casal-cria-empresa-para-transformar-medicos-em-empreendedores-cresce-120-em-um-ano-e-projeta-expansao-de-300-ate-o-fim-de-2026-1.ghtml",
+        "https://novomomento.com.br/medicina-nova-fase-competencias-alem-formc-tecn/"
+      ],
+      "funnel": ["ig", "press", "site"],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": null,
+      "acquisition": ["personal_brand", "press", "doc4u_spinout"]
+    },
+    {
+      "rank": 14,
+      "name": "MENTOREASY CLUB",
+      "tier": "silver",
+      "members_count": 37,
+      "attendees_with_club_field": 92,
+      "book_page": 74,
+      "mentors": ["Pedro Schwartzmann"],
+      "nicho": "medicina / saúde",
+      "sites": ["https://plataformacardioeasy.com.br/"],
+      "apply": null,
+      "instagram": { "founder": "@dr.pedroschwartzmann" },
+      "funnel": ["cardioeasy_events", "platform", "ig"],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": null,
+      "acquisition": ["clinical_events", "personal_brand"]
+    },
+    {
+      "rank": 15,
+      "name": "SHP MASTER",
+      "tier": "gold",
+      "members_count": 33,
+      "attendees_with_club_field": 194,
+      "book_page": 33,
+      "mentors": ["Léo Toledo"],
+      "co_mentor_public": "Caio Carneiro",
+      "nicho": "educação / mentores",
+      "sites": [
+        "https://linktr.ee/saleshighperformance",
+        "https://leonardotoledo.com.br/workshop/"
+      ],
+      "apply": "https://linktr.ee/saleshighperformance (Sessão Estratégica Gratuita)",
+      "linkedin": "https://linkedin.com/company/shpmentoria",
+      "instagram": {
+        "club": "@shp.mls",
+        "founder": "@leotoledoo",
+        "founder_followers_viralist": "131.1K"
+      },
+      "funnel": ["podcast", "workshop", "sessao_estrategica", "outbound"],
+      "vsl": null,
+      "ticket_price_public": null,
+      "min_revenue_public": null,
+      "ops_revenue_public": "R$ 35 milhões (2025); R$ 23 milhões 1H 2026 (workshop copy)",
+      "acquisition": ["outbound", "podcast", "caio_carneiro", "anti_ads_story"]
+    },
+    {
+      "rank": 25,
+      "flagship": true,
+      "name": "CLAXCLUB",
+      "tier": "platinum",
+      "members_count": 25,
+      "attendees_with_club_field": 127,
+      "book_page": 10,
+      "mentors": ["Caio Carneiro", "Flávio Augusto", "Joel Jota"],
+      "nicho": "educação / mentores",
+      "sites": [
+        "https://claxclub.com/",
+        "https://lp.claxclub.com/site",
+        "https://lp.claxclub.com/aplicacaoyoutube"
+      ],
+      "apply": "https://lp.claxclub.com/site",
+      "instagram": {
+        "club": "@claxclub",
+        "club_followers_viralist": "187.1K",
+        "mentors": ["@geracaodevalor", "@joeljota", "@caiocarneiro"]
+      },
+      "funnel": ["vsl_on_lp", "ig_comment_Eu_quero_or_VIP", "hubspot_apply", "vip_call"],
+      "vsl": "embedded on https://claxclub.com/",
+      "ticket_price_public": null,
+      "min_revenue_public": null,
+      "acquisition": ["celebrity_founders", "ig", "youtube", "paid_comment_campaigns_inference"]
+    }
+  ]
+}
