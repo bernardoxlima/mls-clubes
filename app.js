@@ -5,6 +5,8 @@ const DATA = {
   ranking: "data/ranking-top25.json",
   aiClubs: "data/ai-clubs.json",
   catalogSummary: "data/SUMMARY.md",
+  overviewExpressivos: "data/overview-expressivos.md",
+  matrizExpressivos: "data/matriz-expressivos.md",
   delivery: "data/delivery-pattern.md",
   topSummary: "data/top-SUMMARY.md",
   topClubs: "data/top-clubs.md",
@@ -234,6 +236,79 @@ function extractSection(md, heading) {
   return (next === -1 ? rest : rest.slice(0, next)).trim();
 }
 
+
+function extractHeading(md, heading, level) {
+  if (!md) return "";
+  level = level || 2;
+  const hashes = "#".repeat(level);
+  const lines = md.replace(/\r\n/g, "\n").split("\n");
+  let start = -1;
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i] === hashes + " " + heading) {
+      start = i + 1;
+      break;
+    }
+  }
+  if (start === -1) return "";
+  const out = [];
+  for (let i = start; i < lines.length; i++) {
+    const hm = lines[i].match(/^(#{1,6})\s+/);
+    if (hm && hm[1].length <= level) break;
+    out.push(lines[i]);
+  }
+  return out.join("\n").trim();
+}
+
+function extractMatrizClubs(md) {
+  if (!md) return "";
+  const lines = md.replace(/\r\n/g, "\n").split("\n");
+  let start = -1;
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].indexOf("## 1.") === 0) {
+      start = i;
+      break;
+    }
+  }
+  if (start === -1) return "";
+  const out = [];
+  for (let i = start; i < lines.length; i++) {
+    if (lines[i].indexOf("## O padrão dos expressivos") === 0) break;
+    out.push(lines[i]);
+  }
+  return out.join("\n").trim();
+}
+
+function leadCard(n, name, tier, metrics, body) {
+  return (
+    '<article class="lead-card">' +
+      '<div class="lead-top">' +
+        '<span class="lead-n">' + esc(String(n).padStart(2, "0")) + "</span>" +
+        "<h3>" + esc(name) + "</h3>" +
+        pillTier(tier) +
+      "</div>" +
+      '<p class="lead-metrics">' + esc(metrics) + "</p>" +
+      "<p>" + inlineMd(body) + "</p>" +
+    "</article>"
+  );
+}
+
+function renderOneLiners(md) {
+  const cards = [];
+  (md || "").split("\n").forEach(function (line) {
+    const m = line.match(/^\-\s+\*\*(.+?)\*\*\s+[—–-]\s+(.+)$/);
+    if (m) {
+      cards.push(
+        '<article class="card">' +
+          "<h3>" + esc(m[1]) + "</h3>" +
+          "<p>" + inlineMd(m[2]) + "</p>" +
+        "</article>"
+      );
+    }
+  });
+  if (!cards.length) return '<div class="md">' + parseMarkdown(md || "") + "</div>";
+  return '<div class="card-grid oneliners">' + cards.join("") + "</div>";
+}
+
 function pillTier(tier) {
   const t = (tier || "unknown").toLowerCase();
   return '<span class="pill ' + esc(t) + '">' + esc(t) + "</span>";
@@ -264,52 +339,67 @@ function snippet(text, n) {
 async function renderOverview(root) {
   root.innerHTML = loadingHTML();
   try {
-    const [clubs, summary, top] = await Promise.all([
-      loadJSON(DATA.clubs),
+    const [overviewMd, summary] = await Promise.all([
+      loadText(DATA.overviewExpressivos),
       loadText(DATA.catalogSummary),
-      loadText(DATA.topSummary),
     ]);
-    const tiers = { frame: 0, platinum: 0, gold: 0, silver: 0, bronze: 0 };
-    clubs.forEach(function (c) {
-      if (tiers[c.tier] != null) tiers[c.tier]++;
-      else tiers[c.tier] = (tiers[c.tier] || 0) + 1;
-    });
-    const aiCore = clubs.filter(function (c) {
-      return c.ai_relevance === "direct";
-    });
-    const implications = extractSection(top, "Implications for an AI club with MIT-lab positioning");
-    const pattern = extractSection(top, "5-line pattern of how the winners acquire");
+    const acquire = extractHeading(overviewMd, "Bloco 2 — Como os expressivos adquirem", 3);
     const counts = extractSection(summary, "Contagens por tier");
-    const aiBlock = extractSection(summary, "Clubes AI / adjacentes");
-    const gaps = extractSection(summary, "Gaps de parsing");
 
     root.innerHTML =
       '<p class="kicker">Mentoring League Society · Members Book 2026</p>' +
-      '<h1 class="display">Mapa da liga.</h1>' +
-      '<p class="lede">214 clubes no catálogo. Quatro com tese de IA. FoundersAI e NovaIA vendem implementação — MIT/lab é espaço em branco. Mentoring League Society, não soccer.</p>' +
-      '<div class="stat-grid">' +
+      '<h1 class="display">Quem puxa a liga.</h1>' +
+      '<p class="lede">214 clubes no book. Quem ocupa o Festival e o palco não é IA — é ClaxClub, FIRE, Doc4U e Mentoria Makers: saúde, contábil, jurídico e fábrica de mentores. Mentoring League Society, não soccer.</p>' +
+      '<div class="stat-grid five">' +
         stat("214", "clubes no catálogo") +
-        stat(String(tiers.gold), "gold") +
-        stat(String(tiers.silver), "silver") +
-        stat(String(tiers.bronze), "bronze") +
-        stat("4", "núcleo IA") +
         stat("1", "platinum · ClaxClub") +
+        stat("475", "tagged FIRE (maior sala)") +
+        stat("83", "membros Makers (#1 Festival)") +
+        stat("12", "expressivos deste recorte") +
       "</div>" +
-      '<div class="callout">' +
-        "<h2>Veredito para um clube de IA com posicionamento MIT/lab</h2>" +
-        (implications ? '<div class="md">' + parseMarkdown(implications) + "</div>" : "<p>Implicações não encontradas no SUMMARY.</p>") +
+      '<div class="section-head"><h2>Os quatro que puxam</h2><span class="meta">expressividade, não members_count</span></div>' +
+      '<div class="lead-grid">' +
+        leadCard(
+          1,
+          "ClaxClub",
+          "platinum",
+          "Flávio / Joel / Caio · 25 membros / 127 tagged — 25º por densidade, 1º por status",
+          "Funil mais branded da liga: VSL + “Eu quero” + HubSpot. Título **UNKNOWN**. Site chama o título de Ouro; o book é platinum. Produto de ambiência, não de volume."
+        ) +
+        leadCard(
+          2,
+          "FIRE Club",
+          "gold",
+          "Jhonny + Carla Martins / SERAC · 475 tagged, 64 membros — maior sala do Festival",
+          "Sem LP de clube. Funil: “comente FIRE”. Ambiência, resorts, família. Vertical contábil."
+        ) +
+        leadCard(
+          3,
+          "Doc4U",
+          "gold",
+          "Davison + Flávio · 64 membros / 244 tagged",
+          "Apply Typeform → executivo. Vendas e modelo de negócio para médico; Flávio “encontros regulares”, não 1:1 semanal. EXAME: dono **> R$ 30 mi/ano** (reportagem, não ticket do membro)."
+        ) +
+        leadCard(
+          4,
+          "Mentoria Makers",
+          "bronze",
+          "Pedro Quintanilha · 83 membros — #1 do Festival sendo bronze",
+          "Gate CNPJ + **> R$ 30 mil/mês**. Vende implementação de funil, não “3 encontros + WhatsApp”."
+        ) +
       "</div>" +
-      '<div class="section-head"><h2>Como os vencedores adquirem</h2><span class="meta">top/SUMMARY.md</span></div>' +
-      '<div class="card">' + (pattern ? '<div class="md">' + parseMarkdown(pattern) + "</div>" : "") + "</div>" +
+      '<p class="note-row">Logo atrás, no mesmo recorte: <strong>Advogado 10X</strong> (332 tagged, jurídico), <strong>SHP Master</strong> (fábrica de mentores, Caio, outbound, ops R$ 35 mi em 2025 no copy do workshop), <strong>Prosperus</strong> (Dani 315k IG + Joel), <strong>Endogin</strong> (evento R$ 11k–36k alimentando Gold de emagrecimento/TRH), <strong>Master Acelerador</strong>, <strong>EmpreendeDoc</strong>, <strong>Z Scale</strong>, <strong>GL Club</strong> (único checkout: R$ 25.000). Fora: Next Level (funil público fraco). Clubes de IA: aba AI.</p>' +
+      '<div class="section-head"><h2>Como os expressivos adquirem</h2><span class="meta">cinco movimentos do recorte</span></div>' +
+      '<div class="card">' + (acquire ? '<div class="md">' + parseMarkdown(acquire) + "</div>" : "") + "</div>" +
       '<div class="section-head"><h2>Liga em números</h2><span class="meta">catalog/SUMMARY.md</span></div>' +
       '<div class="md">' + parseMarkdown(counts) + "</div>" +
-      '<div class="section-head"><h2>Clubes de IA no book</h2><span class="meta">' +
-        aiCore.length + " direto / adjacente no catálogo</span></div>" +
-      '<div class="md">' + parseMarkdown(aiBlock) + "</div>" +
-      '<div class="section-head"><h2>Gaps de parsing</h2><span class="meta">índice vs páginas</span></div>' +
-      '<div class="md">' + parseMarkdown(gaps) + "</div>";
+      '<div class="callout">' +
+        "<h2>Implicação para um clube novo</h2>" +
+        "<p>Apply + diagnóstico + closer. Front-end nomeado. Piso de faturamento visível; preço do título escondido. Ou vertical de profissão, ou meta (implementar / ensinar a vender a mentoria). “Encontros + WhatsApp” sem operação parece Next Level, não Makers nem Doc4U.</p>" +
+      "</div>" +
+      '<p class="one-line">O volume expressivo da liga é saúde / jurídico / contábil / meta-mentor, não IA — o mapa de FoundersAI / NovaIA / Medgest IA fica na aba AI.</p>';
   } catch (e) {
-    root.innerHTML = emptyHTML(DATA.catalogSummary, e);
+    root.innerHTML = emptyHTML(DATA.overviewExpressivos, e);
   }
 }
 
@@ -541,25 +631,33 @@ function paintCatalog() {
 async function renderTop(root) {
   root.innerHTML = loadingHTML();
   try {
-    const [summary, clubsMd] = await Promise.all([
-      loadText(DATA.topSummary),
-      loadText(DATA.topClubs),
+    const [overviewMd, matrizMd] = await Promise.all([
+      loadText(DATA.overviewExpressivos),
+      loadText(DATA.matrizExpressivos),
     ]);
-    const prices = extractSection(summary, "Public prices / tickets / min-revenue (only what is on public pages)");
-    const mix = extractSection(summary, "Nicho mix (top 15 + ClaxClub)");
+    const ordem = extractHeading(overviewMd, "Subhead — Ordem de leitura (não é o ranking do Festival)", 3);
+    const mix = extractHeading(overviewMd, "Subhead — Mix de nicho (este recorte)", 3);
+    const cards = extractHeading(overviewMd, "Subhead — Cards (uma linha cada, para não repetir a aba AI)", 3);
+    const prices = extractHeading(overviewMd, "Subhead — Preços e pisos (o que a aba já tinha, reordenado)", 3);
+    const fichas = extractMatrizClubs(matrizMd);
+
     root.innerHTML =
       '<div class="page-intro">' +
-        "<h1>Top clubes</h1>" +
-        "<p>Festival top-15 por members_count + ClaxClub. Cards de funil público, com preços só quando a página mostra.</p>" +
+        "<h1>Expressivos</h1>" +
+        "<p>Recorte por expressividade — Clax primeiro — não o top-15 cru de membros. Next Level de fora. IA de fora. Preços só quando a página mostra.</p>" +
       "</div>" +
-      '<div class="section-head"><h2>Preços e pisos públicos</h2><span class="meta">quase todo título é UNKNOWN</span></div>' +
-      '<div class="md">' + parseMarkdown(prices) + "</div>" +
-      '<div class="section-head"><h2>Mix de nicho</h2><span class="meta">saúde domina o festival</span></div>' +
+      '<div class="section-head"><h2>Ordem de leitura</h2><span class="meta">não é o ranking do Festival</span></div>' +
+      '<div class="md md-wide">' + parseMarkdown(ordem) + "</div>" +
+      '<div class="section-head"><h2>Mix de nicho</h2><span class="meta">este recorte</span></div>' +
       '<div class="md">' + parseMarkdown(mix) + "</div>" +
-      '<div class="section-head"><h2>Cards de funil</h2><span class="meta">top/clubs.md</span></div>' +
-      '<div class="md md-wide">' + parseMarkdown(clubsMd) + "</div>";
+      '<div class="section-head"><h2>Uma linha cada</h2><span class="meta">12 expressivos</span></div>' +
+      renderOneLiners(cards) +
+      '<div class="section-head"><h2>Fichas</h2><span class="meta">matriz.md · FACT / INFERENCE / UNKNOWN</span></div>' +
+      '<div class="md md-wide">' + parseMarkdown(fichas) + "</div>" +
+      '<div class="section-head"><h2>Preços e pisos públicos</h2><span class="meta">só o que a página mostra</span></div>' +
+      '<div class="md">' + parseMarkdown(prices) + "</div>";
   } catch (e) {
-    root.innerHTML = emptyHTML(DATA.topClubs, e);
+    root.innerHTML = emptyHTML(DATA.matrizExpressivos, e);
   }
 }
 
